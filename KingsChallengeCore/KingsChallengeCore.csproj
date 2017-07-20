@@ -47,9 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Game.cs" />
+    <Compile Include="GameFactory.cs" />
+    <Compile Include="Position.cs" />
+    <Compile Include="PositionComparer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Square.cs" />
-    <Compile Include="SquareState.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

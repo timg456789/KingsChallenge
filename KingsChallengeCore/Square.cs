@@ -1,13 +1,11 @@
 ﻿
 namespace KingsChallengeCore
 {
-    // A square is self-aware of its surroundings.
-    // In that it has space.
-    // Through that it should be able to have a ripple like affect,
-    // once patterns are known to iterate through known paths.
     public class Square
     {
-        public SquareState State { get; set; }
+        public bool HasMove { get; set; }
+        public int X { get; set; }
+        public int Y { get; set; }
         /*
         public Square North { get; set; }
         public Square NorthEast { get; set; }
